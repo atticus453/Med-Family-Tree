@@ -1,0 +1,65 @@
+.button {
+  position: relative;
+  font-size: var(--Body-Size-Medium);
+  line-height: 100%;
+  font-family: var(--font-inter);
+  color: var(--Text-Brand-On-Brand);
+  text-align: left;
+}
+.root {
+  cursor: pointer;
+  border: var(--Stroke-Border) solid var(--Border-Brand-Default);
+  padding: var(--Space-200);
+  background-color: var(--Background-Brand-Default);
+  flex: 1;
+  border-radius: var(--Radius-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--Space-200);
+}
+.root[data-size="Medium"][data-state="Default"][data-variant="Neutral"] {
+  border: unset;
+  padding: var(--Space-300);
+  background-color: unset;
+  box-sizing: border-box;
+  background-image: url(/button2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.root[data-size="Medium"][data-state="Default"][data-variant="Subtle"] {
+  border: unset;
+  padding: var(--Space-300);
+  background-color: unset;
+  display: none;
+}
+.root[data-size="Small"][data-state="Default"][data-variant="Neutral"] {
+  border: var(--Stroke-Border) solid var(--Border-Neutral-Secondary);
+  background-color: var(--Background-Neutral-Tertiary);
+}
+.root[data-size="Medium"][data-state="Default"][data-variant="Neutral"] .star,
+.root[data-size="Medium"][data-state="Default"][data-variant="Subtle"] .star,
+.root[data-size="Small"][data-state="Default"][data-variant="Neutral"] .star {
+  filter: brightness(0) saturate(100%) invert(87%) sepia(35%) saturate(4132%)
+    hue-rotate(59deg) brightness(91%) contrast(109%);
+}
+.root[data-size="Medium"][data-state="Default"][data-variant="Neutral"]
+  .button {
+  color: var(--Text-Default-Default);
+  display: none;
+}
+.root[data-size="Medium"][data-state="Default"][data-variant="Subtle"] .button {
+  color: var(--Text-Neutral-Default);
+}
+.root[data-size="Small"][data-state="Default"][data-variant="Neutral"] .button {
+  color: var(--Text-Default-Default);
+}
+.root[data-size="Medium"][data-state="Default"][data-variant="Neutral"] .x,
+.root[data-size="Medium"][data-state="Default"][data-variant="Subtle"] .x,
+.root[data-size="Small"][data-state="Default"][data-variant="Neutral"] .x {
+  filter: brightness(0) saturate(100%) invert(87%) sepia(35%) saturate(4132%)
+    hue-rotate(59deg) brightness(91%) contrast(109%);
+}

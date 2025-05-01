@@ -1,0 +1,19 @@
+.starInput {
+  height: 61px;
+  width: 1117px;
+  position: relative;
+}
+.input {
+  align-self: stretch;
+  background-color: var(--color-silver);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-15xl) var(--padding-22xl);
+  text-align: left;
+  font-size: var(--Heading-Size-Base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

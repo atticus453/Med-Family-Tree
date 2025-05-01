@@ -1,0 +1,29 @@
+.button {
+  position: relative;
+  line-height: 100%;
+  display: none;
+}
+.button1 {
+  position: absolute;
+  top: 1px;
+  left: 1049px;
+  border-radius: var(--br-71xl);
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--Space-300);
+  box-sizing: border-box;
+  gap: var(--Space-200);
+  background-image: url(/button@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--Body-Size-Medium);
+  color: var(--Text-Default-Default);
+  font-family: var(--font-inter);
+}

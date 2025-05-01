@@ -1,0 +1,23 @@
+.iconButton,
+.menu16Icon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.menu16Icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.iconButton {
+  width: 44px;
+  border-radius: var(--Scale-06);
+  background-color: var(--Background-Default-Secondary);
+  border: var(--Stroke-Border) solid var(--Border-Default-Default);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--Space-300);
+  z-index: 1;
+}

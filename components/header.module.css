@@ -1,0 +1,50 @@
+.image2Icon {
+  width: 65px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.authPane,
+.leftPane {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.authPane {
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+}
+.leftPane {
+  flex-direction: row;
+  gap: var(--gap-3xl);
+}
+.header,
+.leftPaneWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+}
+.header {
+  align-self: stretch;
+  height: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-5xl) var(--padding-4xl);
+  box-sizing: border-box;
+  gap: var(--gap-824xl);
+}
+@media screen and (max-width: 600px) {
+  .header {
+    gap: var(--gap-402xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .header {
+    gap: var(--gap-192xl);
+  }
+}

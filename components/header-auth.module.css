@@ -1,0 +1,12 @@
+.button {
+  flex: 1;
+  padding: var(--Space-200);
+}
+.headerAuth {
+  width: 178px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--Space-300);
+}
