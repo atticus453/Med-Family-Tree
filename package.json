@@ -3,14 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "next": "^14.1.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.3",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.13.4",
     "@mui/material-nextjs": "^5.16.14",
-    "@emotion/react": "^11.11.0",
-    "@emotion/styled": "^11.11.0"
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "next": "^14.1.4",
+    "openai": "^4.98.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
     "@types/node": "^17.0.42",
@@ -25,5 +29,19 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-  }
+  },
+  "description": "Note: Please ensure you have installed <code><a href=\"https://nodejs.org/en/download/\">nodejs</a></code>",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atticus453/Med-Family-Tree.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/atticus453/Med-Family-Tree/issues"
+  },
+  "homepage": "https://github.com/atticus453/Med-Family-Tree#readme"
 }

@@ -19,11 +19,15 @@ const IconButton: NextPage<IconButtonType> = ({
   size = "Medium",
   state = "Default",
   variant = "Primary",
-  showIconButton,
+  showIconButton = false,
   menu16,
 }) => {
+  if(!showIconButton){
+    return null;
+  }
   return (
-    !!showIconButton && (
+    //!!showIconButton && 
+    (
       <Box
         className={[styles.iconButton, className].join(" ")}
         data-size={size}
